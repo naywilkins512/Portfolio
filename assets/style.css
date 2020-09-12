@@ -8,12 +8,15 @@
 .header2 {
     font-family: 'Asul', sans-serif;
     font-size: 44px;
+    z-index: 1;
+ 
 }
 
 .subtext {
     font-family: 'Open Sans', sans-serif;
     margin-top: -8px;
     font-size: 20px;
+  
 }
 
 
@@ -21,9 +24,12 @@
 
 body {
     background-color: rgb(250, 243, 232);
+    opacity: 0; 
+    transition: opacity 1s;
 }
 
 #nayphoto {
     max-width: 100%;
+    z-index: 0;
     
 }
