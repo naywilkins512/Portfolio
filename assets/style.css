@@ -1,0 +1,29 @@
+
+.header {
+    margin-top: -2px;
+    font-family: 'Asul', sans-serif;
+}
+
+
+.header2 {
+    font-family: 'Asul', sans-serif;
+    font-size: 44px;
+}
+
+.subtext {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -8px;
+    font-size: 20px;
+}
+
+
+
+
+body {
+    background-color: rgb(250, 243, 232);
+}
+
+#nayphoto {
+    max-width: 100%;
+    
+}
