@@ -7,7 +7,6 @@
 .header2 {
     font-family: 'Asul', sans-serif;
     font-size: 44px;
-    z-index: 1;
  
 }
 
@@ -19,19 +18,21 @@
 }
 
 
-#landing-section {
+.landing-section {
     overflow-x: hidden;
 }
 
-#portfolio-row {
+.portfolio-row {
     overflow-x: scroll !important;
     overflow-y: hidden;
     white-space: nowrap;
     position: relative;
+    margin-top: 10px;
 }
 
-#portfolio-wrapper{
+.panel{
     height: 100vh;
+   
 }
 
 .portfolio-images {
@@ -43,8 +44,9 @@
 margin-left: 7px;
 }
 
-
-
+.portfolio-section {
+    height: 100vh;
+}
 
 
 
@@ -59,7 +61,6 @@ body {
     object-fit: cover;
     float: right;
     max-width: 100vh;
-    z-index: 0;
     height: 100vh;
     
 }
@@ -71,3 +72,12 @@ body {
 #contact {
     height: 100vh;
 }
+
+.honor {
+    margin-top: 10rem;
+}
+
+.intro {
+    margin-top: 10rem;
+}
+

@@ -1,3 +1,8 @@
+
+gsap.registerPlugin(ScrollTrigger);
+
+
+
 gsap.to("#nayphoto", {
     scrollTrigger: {
         trigger: ".portfolio-header", 
@@ -74,8 +79,8 @@ gsap.from(".portfolio-text", {
 
 let tl = gsap.timeline({
     scrollTrigger: {
-        trigger: '#portfolio',
-        start: "center bottom",
+        trigger: '.portfolio',
+        start: "center 90%",
         scrub: true,
         
 
