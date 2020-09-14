@@ -4,7 +4,7 @@ gsap.to("#nayphoto", {
         start: "top 95%", 
         end: "bottom 50%",
         scrub: true,
-        markers: true,
+        markers: false,
         
     },
     // x: 400, 
@@ -20,6 +20,19 @@ gsap.to(".nay", {
         scrub: true,     
         pin: true,   
     },
+});
+
+gsap.to(".down-arrow", {
+    scrollTrigger: {
+        trigger: ".portfolio-header", 
+        start: "top 95%", 
+        end: "bottom 50%",
+        scrub: true,     
+           
+    },
+    y: 300,
+    opacity: 0,
+    duration: 2,
 });
 
 gsap.to(".intro", {
