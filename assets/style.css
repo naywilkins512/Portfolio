@@ -1,6 +1,5 @@
-
 .header {
-    margin-top: -2px;
+    margin-top: .5rem;
     font-family: 'Asul', sans-serif;
 }
 
@@ -20,16 +19,51 @@
 }
 
 
+#landing-section {
+    overflow-x: hidden;
+}
+
+#portfolio-row {
+    overflow-x: scroll !important;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+#portfolio-wrapper{
+    height: 100vh;
+}
+
+.portfolio-images {
+    margin: 0;
+    padding: 3em;
+}
+
+
+
+
 
 
 body {
+    overflow-x: hidden;
     background-color: rgb(250, 243, 232);
     opacity: 0; 
     transition: opacity 1s;
 }
 
 #nayphoto {
-    max-width: 100%;
+    object-fit: cover;
+    float: right;
+    max-width: 100vh;
     z-index: 0;
+    height: 100vh;
     
+}
+
+#portfolio-header {
+    padding-top: 10em;
+}
+
+#contact {
+    height: 100vh;
 }
