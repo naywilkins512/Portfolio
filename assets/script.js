@@ -30,14 +30,14 @@ gsap.to(".nay", {
 gsap.to(".down-arrow", {
     scrollTrigger: {
         trigger: ".portfolio-header", 
-        start: "top 95%", 
-        end: "bottom 50%",
+        start: "top 100%", 
+        end: "top 80%",
         scrub: true,     
            
     },
-    y: 300,
+    y: 20,
     opacity: 0,
-    duration: 2,
+    duration: .5,
 });
 
 gsap.to(".intro", {
