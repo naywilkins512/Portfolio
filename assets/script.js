@@ -35,7 +35,7 @@ gsap.to(".down-arrow", {
         scrub: true,     
            
     },
-    y: 20,
+    y: 30,
     opacity: 0,
     duration: .5,
 });
