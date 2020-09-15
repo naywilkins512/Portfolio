@@ -12,14 +12,14 @@
 
 .subtext {
     font-family: 'Open Sans', sans-serif;
-    margin-top: -8px;
+   
     font-size: 20px;
   
 }
 
 
 .landing-section {
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 .portfolio-row {
@@ -27,13 +27,9 @@
     overflow-y: hidden;
     white-space: nowrap;
     position: relative;
-    margin-top: 10px;
+    scroll-behavior: smooth;
 }
 
-.panel{
-    height: 100vh;
-   
-}
 
 .portfolio-images {
     margin: 0;
@@ -42,20 +38,27 @@
 
 .down-arrow {
     margin-top: 5%;
-    margin-left: 100%;
+    margin-left: 71.5%;
+}
+
+.down-arrow2 {
+    margin-top: 5%;
+    
 }
 
 .portfolio-section {
     height: 100vh;
+    align-content: center !important;
 }
 
 
 
 body {
     overflow-x: hidden;
-    background-color: rgb(250, 243, 232);
+    /* background-color:  rgb(250, 243, 232); */
+    background: linear-gradient(rgb(250, 243, 232),rgb(255, 201, 156));
     opacity: 0; 
-    transition: opacity 1s;
+    transition: opacity 2s;
 }
 
 #nayphoto {
@@ -82,3 +85,8 @@ body {
     margin-top: 10%;
 }
 
+.row, .col {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 !important;
+}
