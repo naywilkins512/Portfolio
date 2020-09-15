@@ -94,6 +94,8 @@ gsap.from(".portfolio-text", {
 
 });
 
+//or animating portfolio row into place from right 
+
 gsap.from(".portfolio-row", {
     scrollTrigger: {
         trigger: ".portfolio-header", 

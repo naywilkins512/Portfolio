@@ -28,6 +28,7 @@
     white-space: nowrap;
     position: relative;
     scroll-behavior: smooth;
+    align-content: center !important;
 }
 
 
@@ -73,7 +74,7 @@ body {
     padding-top: 10em;
 }
 
-#contact {
+.contact {
     height: 100vh;
 }
 
