@@ -28,7 +28,7 @@
     white-space: nowrap;
     position: relative;
     scroll-behavior: smooth;
-    align-content: center !important;
+    display: inline-flex;
 }
 
 
@@ -60,6 +60,7 @@ body {
     background: linear-gradient(rgb(250, 243, 232),rgb(255, 201, 156));
     opacity: 0; 
     transition: opacity 2s;
+    padding: 5px;
 }
 
 #nayphoto {
@@ -91,3 +92,6 @@ body {
     margin-right: 0 !important;
     padding: 0 !important;
 }
+
+
+
