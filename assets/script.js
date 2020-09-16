@@ -188,7 +188,7 @@ gsap.from("#up-arrow", {
         end: "bottom 70%",
         scrub: true,   
         pin: false,
-        markers: true,
+    
         
     },
 
