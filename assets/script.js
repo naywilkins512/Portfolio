@@ -46,6 +46,22 @@ gsap.to(".down-arrow", {
     duration: .5,
 });
 
+// code for animating second down arrow and opacity
+
+gsap.to(".down-arrow2", {
+    scrollTrigger: {
+        trigger: ".contact-header", 
+        start: "top 100%", 
+        end: "top 60%",
+        scrub: true,  
+           
+           
+    },
+    y: 80,
+    opacity: 0,
+    duration: .5,
+});
+
 
 // code for animating intro text left and opacity down
 
@@ -127,6 +143,61 @@ ScrollTrigger.create({
   snap: value => snapper(value)
 });
 
+//code for fading in contact header
+
+gsap.from(".contact-header", {
+    scrollTrigger: {
+        trigger: ".contact-info", 
+        start: "top 100%", 
+        end: "bottom 90%",
+        scrub: true,   
+        pin: false,
+        
+        
+    },
+
+    opacity: 0, 
+    duration: 2, 
+
+});
+
+// code for fading in conatact info
+
+gsap.from(".contact-info", {
+    scrollTrigger: {
+        trigger: ".contact-info", 
+        start: "top 100%", 
+        end: "bottom 70%",
+        scrub: true,   
+        pin: false,
+       
+        
+    },
+
+    opacity: 0, 
+    duration: 2, 
+
+});
+
+// code for fading in conatact info
+
+gsap.from("#up-arrow", {
+    scrollTrigger: {
+        trigger: "#up-arrow", 
+        start: "top 100%", 
+        end: "bottom 70%",
+        scrub: true,   
+        pin: false,
+        markers: true,
+        
+    },
+
+    opacity: 0, 
+    duration: 2, 
+
+});
+
+
 
 
    //code for automating x overflow scroll with buttons
@@ -147,31 +218,15 @@ document.getElementById("portfolio-icon-left").addEventListener("click", functio
        portfolioRow2.scrollLeft = -screen.width
        });
 
-       // code for automating y scroll with buttons
+       //up to top arrow function
 
-    //    document.getElementById("down-arrow").addEventListener("click", function() {
-    //     console.log("clicked")
-    //    let portfolioRow2 = document.getElementsByClassName("portfolio-row")[0]
-    //    console.log(portfolioRow2)
-    //    portfolioRow2.scrollLeft = -screen.width
-    //    });  
+document.getElementById("up-arrow").addEventListener("click", function() {
+        console.log("clicked")
+        window.scroll({
+            top: 100,
+            behavior: 'smooth'
+          }); 
+       });
 
-
-//old broken code.
-
-// let tl = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.portfolio-row',
-//         start: "top top",
-//         end: "bottom center",
-//         scrub: true,
-//         markers: false,
-        
-
-//     }
-// });
-
-// tl.from(".portfolio-header", { opcaity: 0, duration: 1})
-//    tl.from(".portfolio-row", {x: 100, opacity: 0, duration: 0.5}, "-=2");
-
+//down to next section arrow
 

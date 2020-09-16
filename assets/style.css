@@ -38,8 +38,8 @@
 }
 
 .down-arrow {
-    margin-top: 5%;
-    margin-left: 71.5%;
+    margin-top: 20%;
+    margin-left: 83%;
 }
 
 .down-arrow2 {
@@ -94,4 +94,19 @@ body {
 }
 
 
+.contact-info {
+    margin-top: 5rem;
+}
 
+.contact-header {
+    margin-top: 5rem;
+}
+
+#up-arrow {
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+#portfolio-icon-right, #portfolio-icon-left {
+    cursor: pointer;
+}

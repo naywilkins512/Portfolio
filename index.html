@@ -14,9 +14,9 @@
 </head>
 
 <body onload="document.body.style.opacity='1'">
-    <section class="landing-section snap">
+    <section id="landing" class="landing-section snap">
         <div class="row">
-            <div class="col s12 m12 l8 left">
+            <div class="col s12 m7 l7 left">
                 <h1 class="nay header">Nay Wilkins</h1>
                 <p class="subtext">MERN Developer Portfolio</p>
                 <h1 class="intro header2">Hi! I'm a front-end web designer by day, world-touring composer, event
@@ -24,12 +24,12 @@
                     audio engineer by night.
                 </h1>
                 <h1 class="honor header2">Its an honor to meet you!</h1>
-                <i class="medium material-icons down-arrow center">expand_more</i>
+                <i id="down-arrow" class="medium material-icons down-arrow center">expand_more</i>
             </div>
 
-            <div class="col s12 m12 l4 right">
+            <div class="col s12 m4 l4 right">
 
-                <img id="nayphoto" src="./assets/nay-portrait.JPG" alt="nays-photo">
+                <img id="nayphoto" class="responsive-img" src="./assets/nay-portrait.JPG" alt="nays-photo">
             </div>
 
         </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="row">
             <div class="col s12 m12 l12 center">
-                <i class="medium material-icons down-arrow2">expand_more</i>
+                <i id="down-arrow2" class="medium material-icons down-arrow2">expand_more</i>
             </div>
         </div>
         <!-- </div> -->
@@ -76,13 +76,15 @@
 
         <div class="row contact">
             <div class="col s12 m12 l12 center">
-                <h1 class="header">Contact</h1>
+                <h1 class="header contact-header">Contact</h1>
             </div>
             <div class="row">
-                <div class="col s12 m12 l12 center header">
-                    <h3>Email: nathanwilkins01@gmail.com</h3>
-                    <h3>Github: github.com/naywilkins512</h3>
-                    <h3>Phone: 479-409-0876</h3>
+                <div class="col s12 m12 l12 center header contact-info">
+                    <h3><a href="mailto:email@example.com">Send Email</a></h3>
+                    <h3> <a href="tel:+14794090876">479-409-0876</a></h3>
+                    <h3><a href="github.com/naywilkins512" target="_blank">Github</a> </h3>
+                    <h3><a href="#">Resume</a></h3>
+                   <i id="up-arrow" class="medium material-icons">expand_less</i>
                 </div>
 
             </div>
