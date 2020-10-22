@@ -66,7 +66,6 @@ body {
 #nayphoto {
     object-fit: cover;
     float: right;
-    max-width: 100vh;
     height: 100vh;
     
 }
@@ -110,3 +109,9 @@ body {
 #portfolio-icon-right, #portfolio-icon-left {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background: lightblue;
+    }
+  }
