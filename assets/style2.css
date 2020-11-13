@@ -1,0 +1,42 @@
+.lavender {
+    color: #222222;
+    background-color: #222222;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.ivory {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.title {
+    top: 45%;
+    left: 45%;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    color: #F14902;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.blur {
+filter: blur(5px);
+}
+
+.title2 {
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    color: #222222;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+/* font-family: 'Open Sans', sans-serif; */
