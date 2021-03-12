@@ -1,4 +1,4 @@
 # Portfolio
-Nay's New Developer Profile
+Nay's Developer Profile showcasing various collaborative and solo coding projects.
 
-![portfolio](portfolio.gif)
+![nays-portfolio](assets/nays-portfolio.gif)
