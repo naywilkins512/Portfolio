@@ -44,8 +44,8 @@
 
 .port-script {
     margin-top: 0.8em;
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
 }
 
 .down-arrow {
